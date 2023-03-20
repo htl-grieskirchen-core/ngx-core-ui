@@ -12,7 +12,8 @@ import { TestComponent } from './test/test.component';
   imports: [
   ],
   exports: [
-    CoreUiLibComponent
+    CoreUiLibComponent,
+    TestComponent,
   ]
 })
 export class CoreUiLibModule { }
