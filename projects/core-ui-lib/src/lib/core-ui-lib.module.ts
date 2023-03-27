@@ -12,6 +12,7 @@ import {FormsModule} from "@angular/forms";
 import {NgClass, NgForOf, NgIf} from "@angular/common";
 import {TablerIconsModule} from "angular-tabler-icons";
 import {IconChevronDown, IconChevronUp} from "angular-tabler-icons/icons";
+import { SeasComponent } from './seas/seas.component';
 
 const icons = {
   IconChevronDown,
@@ -29,6 +30,7 @@ const icons = {
     SynoTagComponent,
     SynoSelectComponent,
     SynoSelectMultipleComponent,
+    SeasComponent,
   ],
   imports: [
     FormsModule,
@@ -47,6 +49,7 @@ const icons = {
     SynoTagComponent,
     SynoSelectComponent,
     SynoSelectMultipleComponent,
+    SeasComponent,
   ]
 })
 export class CoreUiLibModule {

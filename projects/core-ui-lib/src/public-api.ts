@@ -13,3 +13,4 @@ export * from "./lib/syno-select-multiple/syno-select-multiple.component";
 export * from "./lib/syno-switch/syno-switch.component";
 export * from "./lib/syno-tag/syno-tag.component";
 export * from "./lib/syno-username/syno-username.component";
+export * from "./lib/seas/seas.component";
